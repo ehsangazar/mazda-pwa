@@ -1,0 +1,32 @@
+{
+  "name": "mazda-pwa",
+  "version": "1.0.0",
+  "description": "Mazda Progressive Web Application",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ehsangazar/mazda-pwa.git"
+  },
+  "keywords": [
+    "Progressive",
+    "Web",
+    "App",
+    "JavaScript"
+  ],
+  "author": "Ehsan Gazar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ehsangazar/mazda-pwa/issues"
+  },
+  "homepage": "https://github.com/ehsangazar/mazda-pwa#readme",
+  "dependencies": {
+    "next": "^6.0.3",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2"
+  }
+}

@@ -9,5 +9,23 @@ I am also writing a blog which after publishing the post, I will update this rea
 I am using Mazda.com.au as a sample of styles and content!
 
 
-# Step 1: 
-Initilizing the project!
+# Step 1: Initilizing the project!
+I am using Next.js because it gives me:
+- Server Side Rendering
+- HMR (Hot Module Reloading) and Error Reporting
+
+
+# How to Start this project for development:
+Run commands below
+```
+npm i
+npm run dev
+```
+
+# How to Start this project for production:
+Run commands below
+```
+npm i
+npm run build
+npm run start
+```
