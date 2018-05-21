@@ -14,6 +14,12 @@ I am using Next.js because it gives me:
 - Server Side Rendering
 - HMR (Hot Module Reloading) and Error Reporting
 
+# Step 2: Adding Styled Component to the project
+I am using Styled-Component in this project because:
+- It has an awesome server-rendering
+- It's readable 
+- CSS like synstax
+
 
 # How to Start this project for development:
 Run commands below

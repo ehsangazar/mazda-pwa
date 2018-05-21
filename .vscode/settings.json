@@ -1,0 +1,9 @@
+{
+    "stylelint.additionalDocumentSelectors": [
+        "javascriptreact"
+    ],
+    "files.associations": {
+        "**/pages/*.js": "javascriptreact",
+        "**/components/*.js": "javascriptreact"
+    }
+}

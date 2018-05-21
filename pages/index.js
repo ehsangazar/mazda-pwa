@@ -1,2 +1,8 @@
+import { Button } from '../components'
+
 export default () => 
-    <div>Welcome to Start of Mazda.com.au!</div>
+    <div>
+        <Button>
+            Sample Button
+        </Button>
+    </div>
