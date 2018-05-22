@@ -36,10 +36,11 @@ Just creating Manifest to have experience of installing the app on your devices
 # Step 7: Making website ready for sharing
 The concept of OpenGrah exists for managing what you want to be shared on social media!
 
-# Steo 8: Working on Server Rendering
-
+# Step 8: Working on Server Rendering
+Because we are using next.js with the help of getInitialProps and passing responses to props of the page, we can simply have SSR in this project
 
 # Step 9: Securing with HTTPS 
+It depends where you want to deploy your app.
 
 
 # How to Start this project for development:
