@@ -1,4 +1,4 @@
-var CACHE_NAME = 'v1-dependencies-cache';
+const CACHE_NAME = 'v1-dependencies-cache';
 const REQUIRED_FILES = [
   "/",
   "/mazda2",
@@ -6,26 +6,27 @@ const REQUIRED_FILES = [
 ];
 
 
-self.addEventListener('install', function (event) {
+self.addEventListener('install', (event) => {
   // Perform install step:  loading each required file into cache
   console.log('ServiceWorker::: Installed')
   event.waitUntil(
     caches.open(CACHE_NAME)
-    .then(function (cache) {
+    .then((cache) => {
       // Add all offline dependencies to the cache
+      REQUIRED_FILES.map((url) => new Request(url))
       return cache.addAll(REQUIRED_FILES);
     })
-    .then(function () {
+    .then(() => {
       // At this point everything has been cached
       return self.skipWaiting();
     })
   );
 });
 
-self.addEventListener('fetch', function (event) {
+self.addEventListener('fetch', (event) => {
   event.respondWith(
     caches.match(event.request)
-    .then(function (response) {
+    .then((response) => {
       // Cache hit - return the response from the cached version
       if (response) {
         return response;
@@ -42,10 +43,26 @@ self.addEventListener('fetch', function (event) {
     || event.request.url.includes('static')
   ){
     caches.open(CACHE_NAME)
-      .then(function (cache) {
+      .then((cache) => {
         // Add all offline dependencies to the cache
         return cache.add(event.request);
       })
   }
 
+});
+
+
+self.addEventListener('sync', function (event) {
+  console.log(`ServiceWorder::: Sync fired ${event.tag}`)
+  if (event.tag == 'SyncLogo') {
+    event.waitUntil(
+      self.registration.showNotification("Sync event fired!")
+    )
+    event.waitUntil(
+      caches.open(CACHE_NAME)
+        .then((cache) => {
+          return cache.add(new Request('/static/sample/logo.svg'));
+        })
+    )
+  }
 });

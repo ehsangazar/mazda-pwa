@@ -17,14 +17,7 @@ class Mazda2 extends React.Component {
           <a>Home Page</a>
         </Link>
         <div>
-          <ol>
-            <li>
-              Pushing to URL instead of Replacing with next/link
-            </li>
-            <li>
-              Service workers and offline working for caching requests
-            </li>
-          </ol>
+          Mazda 2
         </div>
       </Page>
     )

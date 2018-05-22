@@ -67,48 +67,22 @@ module.exports =
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 9);
+/******/ 	return __webpack_require__(__webpack_require__.s = 4);
 /******/ })
 /************************************************************************/
-/******/ ([
-/* 0 */
-/***/ (function(module, exports) {
+/******/ ({
 
-module.exports = require("react");
-
-/***/ }),
-/* 1 */
-/***/ (function(module, exports) {
-
-module.exports = require("styled-components");
-
-/***/ }),
-/* 2 */
-/***/ (function(module, exports) {
-
-module.exports = require("@babel/runtime/regenerator");
-
-/***/ }),
-/* 3 */
+/***/ "./components/Button/Button.js":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__("react");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_styled_components__ = __webpack_require__("styled-components");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_styled_components___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_styled_components__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__constants_colors__ = __webpack_require__("./constants/colors.js");
+var _jsxFileName = "/Users/cheebg/Projects/mazda-pwa/components/Button/Button.js";
 
-// EXTERNAL MODULE: external "react"
-var external__react_ = __webpack_require__(0);
-var external__react__default = /*#__PURE__*/__webpack_require__.n(external__react_);
-
-// EXTERNAL MODULE: external "styled-components"
-var external__styled_components_ = __webpack_require__(1);
-var external__styled_components__default = /*#__PURE__*/__webpack_require__.n(external__styled_components_);
-
-// CONCATENATED MODULE: ./constants/colors.js
-/* harmony default export */ var colors = ({
-  RED: '#990000',
-  GREY: '#888888',
-  GREY_LIGHT: '#333333'
-});
-// CONCATENATED MODULE: ./components/Button/Button.js
 var _templateObject = /*#__PURE__*/ _taggedTemplateLiteral(["\n  border: 1px solid ", "\n"]);
 
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
@@ -132,9 +106,9 @@ function _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(
 
 
 
-var ButtonStyle = external__styled_components__default.a.button(_templateObject, colors.RED);
+var ButtonStyle = __WEBPACK_IMPORTED_MODULE_1_styled_components___default.a.button(_templateObject, __WEBPACK_IMPORTED_MODULE_2__constants_colors__["a" /* default */].RED);
 
-var Button_Button =
+var Button =
 /*#__PURE__*/
 function (_React$PureComponent) {
   _inherits(Button, _React$PureComponent);
@@ -166,58 +140,65 @@ function (_React$PureComponent) {
   _createClass(Button, [{
     key: "render",
     value: function render() {
-      return external__react__default.a.createElement(ButtonStyle, _extends({
+      return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(ButtonStyle, _extends({
         role: "button",
         tabIndex: 0
-      }, this.props), this.props.children);
+      }, this.props, {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 19
+        }
+      }), this.props.children);
     }
   }]);
 
   return Button;
-}(external__react__default.a.PureComponent);
+}(__WEBPACK_IMPORTED_MODULE_0_react___default.a.PureComponent);
 
-/* harmony default export */ var components_Button_Button = (Button_Button);
-// CONCATENATED MODULE: ./components/Page/Page.js
-function Page__typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { Page__typeof = function _typeof(obj) { return typeof obj; }; } else { Page__typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return Page__typeof(obj); }
+/* unused harmony default export */ var _unused_webpack_default_export = (Button);
 
-function Page__classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+/***/ }),
 
-function Page__defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+/***/ "./components/Page/Page.js":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-function Page__createClass(Constructor, protoProps, staticProps) { if (protoProps) Page__defineProperties(Constructor.prototype, protoProps); if (staticProps) Page__defineProperties(Constructor, staticProps); return Constructor; }
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__("react");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
+var _jsxFileName = "/Users/cheebg/Projects/mazda-pwa/components/Page/Page.js";
 
-function Page__possibleConstructorReturn(self, call) { if (call && (Page__typeof(call) === "object" || typeof call === "function")) { return call; } return Page__assertThisInitialized(self); }
+function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
-function Page__assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
-function Page__inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
 
 
 
-var Page_Page =
+var Page =
 /*#__PURE__*/
 function (_React$Component) {
-  Page__inherits(Page, _React$Component);
+  _inherits(Page, _React$Component);
 
   function Page(props) {
     var _this;
 
-    Page__classCallCheck(this, Page);
+    _classCallCheck(this, Page);
 
-    _this = Page__possibleConstructorReturn(this, (Page.__proto__ || Object.getPrototypeOf(Page)).call(this, props));
-    _this.state = {
-      offline: true
-    };
-    return _this;
-  }
-
-  Page__createClass(Page, [{
-    key: "componentDidMount",
-    value: function componentDidMount() {
-      var _this2 = this;
-
-      // Service Worker
-      if (this.props.env.NODE_ENV === 'production') {
+    _this = _possibleConstructorReturn(this, (Page.__proto__ || Object.getPrototypeOf(Page)).call(this, props));
+    Object.defineProperty(_assertThisInitialized(_this), "_registerServiceWorkers", {
+      configurable: true,
+      enumerable: true,
+      writable: true,
+      value: function value() {
         if ("serviceWorker" in navigator) {
           console.log('ServiceWorker::: Registered');
           navigator.serviceWorker.register("/service-workers.js", {
@@ -229,9 +210,9 @@ function (_React$Component) {
               // Listen for changes in the state of our ServiceWorker
               navigator.serviceWorker.controller.addEventListener('statechange', function () {
                 // If the ServiceWorker becomes "activated", let the user know they can go offline!
-                if (_this2.state === 'activated') {
+                if (_this.state === 'activated') {
                   // Show the "You may now use offline" notification
-                  _this2.setState({
+                  _this.setState({
                     offline: true
                   });
                 }
@@ -240,56 +221,160 @@ function (_React$Component) {
           });
         }
       }
-    }
-  }, {
+    });
+    Object.defineProperty(_assertThisInitialized(_this), "_syncInBackground", {
+      configurable: true,
+      enumerable: true,
+      writable: true,
+      value: function value() {
+        console.log('ServiceWorker::: Background Sync');
+
+        if ("serviceWorker" in navigator) {
+          new Promise(function (resolve, reject) {
+            if (!("Notification" in window)) {
+              console.log("This browser does not support desktop notification");
+              reject();
+            } // Let's check whether notification permissions have alredy been granted
+            else if (Notification.permission === "granted") {
+                resolve();
+              } // Otherwise, we need to ask the user for permission
+              else if (Notification.permission !== 'denied' || Notification.permission === "default") {
+                  Notification.requestPermission(function (permission) {
+                    // If the user accepts, let's create a notification
+                    if (permission === "granted") {
+                      resolve();
+                    }
+                  });
+                }
+          }).then(function () {
+            navigator.serviceWorker.ready.then(function (swRegistration) {
+              return swRegistration.sync.register('SyncLogo');
+            });
+          });
+        }
+      }
+    });
+    Object.defineProperty(_assertThisInitialized(_this), "_offlineHandler", {
+      configurable: true,
+      enumerable: true,
+      writable: true,
+      value: function value() {
+        console.log('ServiceWorker::: Status::: offline');
+        setTimeout(function () {
+          _this._syncInBackground();
+        }, 1000);
+      }
+    });
+    Object.defineProperty(_assertThisInitialized(_this), "_onlineHandler", {
+      configurable: true,
+      enumerable: true,
+      writable: true,
+      value: function value() {
+        console.log('ServiceWorker::: Status::: online');
+      }
+    });
+    Object.defineProperty(_assertThisInitialized(_this), "_notifyUser", {
+      configurable: true,
+      enumerable: true,
+      writable: true,
+      value: function value() {
+        console.log('ServiceWorker::: Calling the sync function automatically');
+        window.addEventListener('online', _this._onlineHandler);
+        window.addEventListener('offline', _this._offlineHandler);
+      }
+    });
+    _this.state = {
+      offline: true
+    };
+    return _this;
+  }
+
+  _createClass(Page, [{
     key: "render",
     value: function render() {
-      return external__react__default.a.createElement("div", null, this.state.offline && external__react__default.a.createElement("div", null, " Offline is Active "), this.props.children);
+      return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 90
+        }
+      }, this.state.offline && __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 92
+        }
+      }, " Service Worker is Active "), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 94
+        }
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("button", {
+        onClick: this._registerServiceWorkers,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 95
+        }
+      }, "Registering Service Workers"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("button", {
+        onClick: this._syncInBackground,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 98
+        }
+      }, "Background Sync"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("button", {
+        onClick: this._notifyUser,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 101
+        }
+      }, "Make Background Sync Automatic")), this.props.children);
     }
   }]);
 
   return Page;
-}(external__react__default.a.Component);
+}(__WEBPACK_IMPORTED_MODULE_0_react___default.a.Component);
 
-/* harmony default export */ var components_Page_Page = (Page_Page);
-// CONCATENATED MODULE: ./components/index.js
-/* unused concated harmony import Button */
-/* concated harmony reexport */__webpack_require__.d(__webpack_exports__, false, function() { return components_Button_Button; });
-/* concated harmony reexport */__webpack_require__.d(__webpack_exports__, "a", function() { return components_Page_Page; });
+/* harmony default export */ __webpack_exports__["a"] = (Page);
+
+/***/ }),
+
+/***/ "./components/index.js":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__Button_Button__ = __webpack_require__("./components/Button/Button.js");
+/* unused harmony reexport Button */
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__Page_Page__ = __webpack_require__("./components/Page/Page.js");
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_1__Page_Page__["a"]; });
 
 
 
 /***/ }),
-/* 4 */
-/***/ (function(module, exports) {
 
-module.exports = require("next/link");
+/***/ "./constants/colors.js":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-/***/ }),
-/* 5 */,
-/* 6 */,
-/* 7 */,
-/* 8 */,
-/* 9 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__(10);
-
+"use strict";
+/* harmony default export */ __webpack_exports__["a"] = ({
+  RED: '#990000',
+  GREY: '#888888',
+  GREY_LIGHT: '#333333'
+});
 
 /***/ }),
-/* 10 */
+
+/***/ "./pages/index.js":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_runtime_regenerator__ = __webpack_require__(2);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_runtime_regenerator__ = __webpack_require__("@babel/runtime/regenerator");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_runtime_regenerator___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__babel_runtime_regenerator__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react__ = __webpack_require__("react");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components__ = __webpack_require__(3);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_next_link__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components__ = __webpack_require__("./components/index.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_next_link__ = __webpack_require__("next/link");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_next_link___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_next_link__);
 
+var _jsxFileName = "/Users/cheebg/Projects/mazda-pwa/pages/index.js";
 
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
@@ -328,10 +413,28 @@ function (_React$Component) {
     value: function render() {
       var env = this.props.env;
       return __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2__components__["a" /* Page */], {
-        env: env
+        env: env,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 15
+        }
       }, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3_next_link___default.a, {
-        href: "/mazda2"
-      }, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("a", null, "Mazda2")), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("div", null, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("ol", null, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("li", null, "Pushing to URL instead of Replacing with next/link"), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("li", null, "Service workers and offline working for caching requests"))));
+        href: "/mazda2",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 16
+        }
+      }, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("a", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 17
+        }
+      }, "Mazda2")), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("div", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 19
+        }
+      }, "HomePage"));
     }
   }], [{
     key: "getInitialProps",
@@ -366,5 +469,43 @@ function (_React$Component) {
 
 /* harmony default export */ __webpack_exports__["default"] = (Index);
 
+/***/ }),
+
+/***/ 4:
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__("./pages/index.js");
+
+
+/***/ }),
+
+/***/ "@babel/runtime/regenerator":
+/***/ (function(module, exports) {
+
+module.exports = require("@babel/runtime/regenerator");
+
+/***/ }),
+
+/***/ "next/link":
+/***/ (function(module, exports) {
+
+module.exports = require("next/link");
+
+/***/ }),
+
+/***/ "react":
+/***/ (function(module, exports) {
+
+module.exports = require("react");
+
+/***/ }),
+
+/***/ "styled-components":
+/***/ (function(module, exports) {
+
+module.exports = require("styled-components");
+
 /***/ })
-/******/ ]);
+
+/******/ });
+//# sourceMappingURL=index.js.map

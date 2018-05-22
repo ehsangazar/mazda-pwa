@@ -20,8 +20,24 @@ I am using Styled-Component in this project because:
 - It's readable 
 - CSS like synstax
 
-# Step 3: Enable Service workers
+# Step 3: Enabling Service workers
 I want to cache everything for next.js in production to be able to see the website offline
+
+
+# Step 4: Background Sync Data
+I have created background sync data to be called by a button, therefore I cache another request
+
+# Step 5: Send Notifications
+After going to offline mode, Event listener will fire a sync command to trigger background sync functionality of servicer workers.
+
+# Step 6: Creting Manifest
+
+# Step 7: Making website ready for sharing
+
+# Steo 8: Working on Server Rendering
+
+
+# Step 9: Securing with HTTPS 
 
 
 # How to Start this project for development:

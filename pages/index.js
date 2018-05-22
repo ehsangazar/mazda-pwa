@@ -17,14 +17,7 @@ class Index extends React.Component {
           <a>Mazda2</a>
         </Link>
         <div>
-          <ol>
-            <li>
-              Pushing to URL instead of Replacing with next/link
-            </li>
-            <li>
-              Service workers and offline working for caching requests
-            </li>
-          </ol>
+          HomePage
         </div>
       </Page>
     )
