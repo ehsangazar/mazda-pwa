@@ -34,6 +34,7 @@ After going to offline mode, Event listener will fire a sync command to trigger 
 Just creating Manifest to have experience of installing the app on your devices
 
 # Step 7: Making website ready for sharing
+The concept of OpenGrah exists for managing what you want to be shared on social media!
 
 # Steo 8: Working on Server Rendering
 

@@ -29,9 +29,26 @@ export default class MyDocument extends Document {
     return (
       <html lang="en">
         <Head>
-          <meta name="viewport" content="width=device-width, initial-scale=1" />
-          <link href="/manifest.json" rel="manifest" />
           <title>Sample Web Page of Mazda Progressive Web App</title>
+
+          {/* Responsiveness */}
+          <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+          {/* Manifest */}
+          <link href="/manifest.json" rel="manifest" />
+
+          {/* Twitter OpenGraph */}
+          <meta name="twitter:card" content="summary" />
+          <meta name="twitter:site" content="@ehsangazar" />
+          <meta name="twitter:creator" content="@ehsangazar" />
+
+          {/* SocialMedia OpenGraph */}
+          <meta property="og:url" content="http://localhost:3000/" />
+          <meta property="og:type" content="website" />
+          <meta property="og:title" content="Open Graph: Sample Web Page of Mazda PWA" />
+          <meta property="og:description" content="Open Graph: Best Progressive Web App" />
+          <meta property="og:image" content="http://localhost:3000/logo.png" />
+
           {this.props.styleTags}
         </Head>
         <body>
