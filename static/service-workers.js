@@ -61,7 +61,7 @@ self.addEventListener('sync', function (event) {
     event.waitUntil(
       caches.open(CACHE_NAME)
         .then((cache) => {
-          return cache.add(new Request('/static/sample/logo.svg'));
+          return cache.add(new Request('/static/logo.png'));
         })
     )
   }

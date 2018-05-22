@@ -30,6 +30,7 @@ export default class MyDocument extends Document {
       <html lang="en">
         <Head>
           <meta name="viewport" content="width=device-width, initial-scale=1" />
+          <link href="/manifest.json" rel="manifest" />
           <title>Sample Web Page of Mazda Progressive Web App</title>
           {this.props.styleTags}
         </Head>

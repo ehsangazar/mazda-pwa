@@ -150,32 +150,39 @@ function (_Document) {
           fileName: _jsxFileName,
           lineNumber: 32
         }
-      }), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("title", {
+      }), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("link", {
+        href: "/manifest.json",
+        rel: "manifest",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 33
         }
+      }), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("title", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 34
+        }
       }, "Sample Web Page of Mazda Progressive Web App"), this.props.styleTags), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("body", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 36
+          lineNumber: 37
         }
       }, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("div", {
         id: "offlineNotification",
         className: "hidden",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 37
+          lineNumber: 38
         }
       }, "Offline"), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_next_document__["Main"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 40
+          lineNumber: 41
         }
       }), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_next_document__["NextScript"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 41
+          lineNumber: 42
         }
       })));
     }

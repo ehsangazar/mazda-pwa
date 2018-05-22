@@ -31,6 +31,7 @@ I have created background sync data to be called by a button, therefore I cache 
 After going to offline mode, Event listener will fire a sync command to trigger background sync functionality of servicer workers.
 
 # Step 6: Creting Manifest
+Just creating Manifest to have experience of installing the app on your devices
 
 # Step 7: Making website ready for sharing
 
