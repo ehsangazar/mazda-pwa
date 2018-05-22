@@ -20,6 +20,9 @@ I am using Styled-Component in this project because:
 - It's readable 
 - CSS like synstax
 
+# Step 3: Enable Service workers
+I want to cache everything for next.js in production to be able to see the website offline
+
 
 # How to Start this project for development:
 Run commands below

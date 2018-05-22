@@ -3,9 +3,9 @@ import { Page, Button } from '../components'
 import Link from 'next/link'
 const env = process ? process.env : null
 
-class Index extends React.Component {
-  static async getInitialProps() {
+class Mazda2 extends React.Component {
 
+  static async getInitialProps() {
     return { env }
   }
 
@@ -13,8 +13,8 @@ class Index extends React.Component {
     const { env } = this.props
     return (
       <Page env={env}>
-        <Link href="/mazda2">
-          <a>Mazda2</a>
+        <Link href="/">
+          <a>Home Page</a>
         </Link>
         <div>
           <ol>
@@ -31,4 +31,4 @@ class Index extends React.Component {
   }
 }
 
-export default Index
+export default Mazda2

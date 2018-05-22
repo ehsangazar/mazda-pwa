@@ -1,3 +1,4 @@
+import 'isomorphic-fetch'
 import React from 'react'
 import Document, { Head, Main, NextScript } from 'next/document'
 import { ServerStyleSheet, injectGlobal } from 'styled-components'
@@ -11,6 +12,9 @@ injectGlobal`
   body {
     background-color: white;
   }
+  .hidden {
+    display: none;
+  }
 `
 
 export default class MyDocument extends Document {
@@ -20,6 +24,7 @@ export default class MyDocument extends Document {
     const styleTags = sheet.getStyleElement()
     return { ...page, styleTags }
   }
+
   render() {
     return (
       <html lang="en">
@@ -29,6 +34,9 @@ export default class MyDocument extends Document {
           {this.props.styleTags}
         </Head>
         <body>
+          <div id="offlineNotification" className="hidden">
+            Offline
+          </div>
           <Main />
           <NextScript />
         </body>
