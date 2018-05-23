@@ -31,6 +31,9 @@ export default class MyDocument extends Document {
         <Head>
           <title>Sample Web Page of Mazda Progressive Web App</title>
 
+          {/* OneSignal */}
+          <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
+
           {/* Responsiveness */}
           <meta name="viewport" content="width=device-width, initial-scale=1" />
 

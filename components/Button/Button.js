@@ -3,7 +3,19 @@ import styled from "styled-components";
 import COLORS from "../../constants/colors";
 
 const ButtonStyle = styled.button`
-  border: 1px solid ${COLORS.RED}
+  border: 1px solid ${COLORS.RED};
+  font-size: 2em;
+  margin-bottom: 1em;
+  transition-duration: 100ms;
+  cursor: pointer;
+  &:hover,
+  &:focus {
+    box-shadow: inset 0 0 999em rgba(0, 0, 0, 0.1);
+  }
+  &:active,
+  &.active {
+    box-shadow: inset 0 0 999em rgba(0, 0, 0, 0.2);
+  }
 `;
 
 class Button extends React.PureComponent {

@@ -42,6 +42,9 @@ Because we are using next.js with the help of getInitialProps and passing respon
 # Step 9: Securing with HTTPS 
 It depends where you want to deploy your app.
 
+# Developing Push Notifications
+Addding OneSignal and Normal WebPush to the app
+
 
 # How to Start this project for development:
 Run commands below

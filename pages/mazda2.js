@@ -1,5 +1,5 @@
 import React from 'react'
-import { Page, Button } from '../components'
+import { Page } from '../components'
 import Link from 'next/link'
 const env = process ? process.env : null
 
@@ -14,7 +14,11 @@ class Mazda2 extends React.Component {
     return (
       <Page env={env}>
         <Link href="/">
-          <a>Home Page</a>
+          <a>HomePage</a>
+        </Link>
+        <br />
+        <Link href="/mazda2">
+          <a>Mazda2</a>
         </Link>
         <div>
           Mazda 2

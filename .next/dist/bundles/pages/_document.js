@@ -148,97 +148,104 @@ function (_Document) {
           fileName: _jsxFileName,
           lineNumber: 32
         }
-      }, "Sample Web Page of Mazda Progressive Web App"), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("meta", {
+      }, "Sample Web Page of Mazda Progressive Web App"), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("script", {
+        src: "https://cdn.onesignal.com/sdks/OneSignalSDK.js",
+        async: "",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 35
+        }
+      }), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("meta", {
         name: "viewport",
         content: "width=device-width, initial-scale=1",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 35
+          lineNumber: 38
         }
       }), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("link", {
         href: "/manifest.json",
         rel: "manifest",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 38
+          lineNumber: 41
         }
       }), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("meta", {
         name: "twitter:card",
         content: "summary",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 41
+          lineNumber: 44
         }
       }), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("meta", {
         name: "twitter:site",
         content: "@ehsangazar",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 42
+          lineNumber: 45
         }
       }), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("meta", {
         name: "twitter:creator",
         content: "@ehsangazar",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 43
+          lineNumber: 46
         }
       }), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("meta", {
         property: "og:url",
         content: "http://localhost:3000/",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 46
+          lineNumber: 49
         }
       }), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("meta", {
         property: "og:type",
         content: "website",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 47
+          lineNumber: 50
         }
       }), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("meta", {
         property: "og:title",
         content: "Open Graph: Sample Web Page of Mazda PWA",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 48
+          lineNumber: 51
         }
       }), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("meta", {
         property: "og:description",
         content: "Open Graph: Best Progressive Web App",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 49
+          lineNumber: 52
         }
       }), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("meta", {
         property: "og:image",
         content: "http://localhost:3000/logo.png",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 50
+          lineNumber: 53
         }
       }), this.props.styleTags), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("body", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 54
+          lineNumber: 57
         }
       }, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("div", {
         id: "offlineNotification",
         className: "hidden",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 55
+          lineNumber: 58
         }
       }, "Offline"), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_next_document__["Main"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 58
+          lineNumber: 61
         }
       }), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_next_document__["NextScript"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 59
+          lineNumber: 62
         }
       })));
     }

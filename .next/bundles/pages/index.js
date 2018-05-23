@@ -2,7 +2,103 @@ module.exports =
 
         __NEXT_REGISTER_PAGE('/', function() {
           var comp = 
-      webpackJsonp([6],{
+      webpackJsonp([5],{
+
+/***/ "./components/Alarm/Alarm.js":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(module) {/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__("./node_modules/react/cjs/react.development.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_styled_components__ = __webpack_require__("./node_modules/styled-components/dist/styled-components.browser.es.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__constants_colors__ = __webpack_require__("./constants/colors.js");
+var _jsxFileName = "/Users/cheebg/Projects/mazda-pwa/components/Alarm/Alarm.js";
+
+var _templateObject = /*#__PURE__*/ _taggedTemplateLiteral(["\n  border: 1px solid ", ";\n  font-size: 1.2em;\n  margin-bottom: 1em;\n  padding: 1em 2em;\n  color: ", "\n  background-color: ", "\n"]);
+
+(function () {
+  var enterModule = __webpack_require__("./node_modules/react-hot-loader/index.js").enterModule;
+
+  enterModule && enterModule(module);
+})();
+
+function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
+
+function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+function _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(0); } return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+
+
+
+
+var AlarmStyle = __WEBPACK_IMPORTED_MODULE_1_styled_components__["b" /* default */].div(_templateObject, __WEBPACK_IMPORTED_MODULE_2__constants_colors__["a" /* default */].RED, __WEBPACK_IMPORTED_MODULE_2__constants_colors__["a" /* default */].WHITE, __WEBPACK_IMPORTED_MODULE_2__constants_colors__["a" /* default */].RED);
+
+var Alarm =
+/*#__PURE__*/
+function (_React$PureComponent) {
+  _inherits(Alarm, _React$PureComponent);
+
+  function Alarm() {
+    _classCallCheck(this, Alarm);
+
+    return _possibleConstructorReturn(this, (Alarm.__proto__ || Object.getPrototypeOf(Alarm)).apply(this, arguments));
+  }
+
+  _createClass(Alarm, [{
+    key: "render",
+    value: function render() {
+      return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(AlarmStyle, {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 18
+        }
+      }, this.props.children);
+    }
+  }, {
+    key: "__reactstandin__regenerateByEval",
+    // @ts-ignore
+    value: function __reactstandin__regenerateByEval(key, code) {
+      // @ts-ignore
+      this[key] = eval(code);
+    }
+  }]);
+
+  return Alarm;
+}(__WEBPACK_IMPORTED_MODULE_0_react___default.a.PureComponent);
+
+var _default = Alarm;
+/* harmony default export */ __webpack_exports__["a"] = (_default);
+;
+
+(function () {
+  var reactHotLoader = __webpack_require__("./node_modules/react-hot-loader/index.js").default;
+
+  var leaveModule = __webpack_require__("./node_modules/react-hot-loader/index.js").leaveModule;
+
+  if (!reactHotLoader) {
+    return;
+  }
+
+  reactHotLoader.register(AlarmStyle, "AlarmStyle", "/Users/cheebg/Projects/mazda-pwa/components/Alarm/Alarm.js");
+  reactHotLoader.register(Alarm, "Alarm", "/Users/cheebg/Projects/mazda-pwa/components/Alarm/Alarm.js");
+  reactHotLoader.register(_default, "default", "/Users/cheebg/Projects/mazda-pwa/components/Alarm/Alarm.js");
+  leaveModule(module);
+})();
+
+;
+/* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__("./node_modules/webpack/buildin/harmony-module.js")(module)))
+
+/***/ }),
 
 /***/ "./components/Button/Button.js":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -14,7 +110,7 @@ module.exports =
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__constants_colors__ = __webpack_require__("./constants/colors.js");
 var _jsxFileName = "/Users/cheebg/Projects/mazda-pwa/components/Button/Button.js";
 
-var _templateObject = /*#__PURE__*/ _taggedTemplateLiteral(["\n  border: 1px solid ", "\n"]);
+var _templateObject = /*#__PURE__*/ _taggedTemplateLiteral(["\n  border: 1px solid ", ";\n  font-size: 2em;\n  margin-bottom: 1em;\n  transition-duration: 100ms;\n  cursor: pointer;\n  &:hover,\n  &:focus {\n    box-shadow: inset 0 0 999em rgba(0, 0, 0, 0.1);\n  }\n  &:active,\n  &.active {\n    box-shadow: inset 0 0 999em rgba(0, 0, 0, 0.2);\n  }\n"]);
 
 (function () {
   var enterModule = __webpack_require__("./node_modules/react-hot-loader/index.js").enterModule;
@@ -83,7 +179,7 @@ function (_React$PureComponent) {
       }, this.props, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 19
+          lineNumber: 31
         }
       }), this.props.children);
     }
@@ -100,7 +196,7 @@ function (_React$PureComponent) {
 }(__WEBPACK_IMPORTED_MODULE_0_react___default.a.PureComponent);
 
 var _default = Button;
-/* unused harmony default export */ var _unused_webpack_default_export = (_default);
+/* harmony default export */ __webpack_exports__["a"] = (_default);
 ;
 
 (function () {
@@ -129,7 +225,11 @@ var _default = Button;
 "use strict";
 /* WEBPACK VAR INJECTION */(function(module) {/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__("./node_modules/react/cjs/react.development.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_styled_components__ = __webpack_require__("./node_modules/styled-components/dist/styled-components.browser.es.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components__ = __webpack_require__("./components/index.js");
 var _jsxFileName = "/Users/cheebg/Projects/mazda-pwa/components/Page/Page.js";
+
+var _templateObject = /*#__PURE__*/ _taggedTemplateLiteral(["\n  margin: 1em;\n  text-align: left;\n  width: 100%;\n"]);
 
 (function () {
   var enterModule = __webpack_require__("./node_modules/react-hot-loader/index.js").enterModule;
@@ -151,7 +251,12 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 
 function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
 
+function _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(0); } return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
+
+
+
+var PageStyle = __WEBPACK_IMPORTED_MODULE_1_styled_components__["b" /* default */].div(_templateObject);
 
 var Page =
 /*#__PURE__*/
@@ -192,6 +297,30 @@ function (_React$Component) {
         }
       }
     });
+    Object.defineProperty(_assertThisInitialized(_this), "_askForPermision", {
+      configurable: true,
+      enumerable: true,
+      writable: true,
+      value: function value() {
+        return new Promise(function (resolve, reject) {
+          if (!("Notification" in window)) {
+            console.log("This browser does not support desktop notification");
+            reject();
+          } // Let's check whether notification permissions have alredy been granted
+          else if (Notification.permission === "granted") {
+              resolve();
+            } // Otherwise, we need to ask the user for permission
+            else if (Notification.permission !== 'denied' || Notification.permission === "default") {
+                Notification.requestPermission(function (permission) {
+                  // If the user accepts, let's create a notification
+                  if (permission === "granted") {
+                    resolve();
+                  }
+                });
+              }
+        });
+      }
+    });
     Object.defineProperty(_assertThisInitialized(_this), "_syncInBackground", {
       configurable: true,
       enumerable: true,
@@ -200,23 +329,7 @@ function (_React$Component) {
         console.log('ServiceWorker::: Background Sync');
 
         if ("serviceWorker" in navigator) {
-          new Promise(function (resolve, reject) {
-            if (!("Notification" in window)) {
-              console.log("This browser does not support desktop notification");
-              reject();
-            } // Let's check whether notification permissions have alredy been granted
-            else if (Notification.permission === "granted") {
-                resolve();
-              } // Otherwise, we need to ask the user for permission
-              else if (Notification.permission !== 'denied' || Notification.permission === "default") {
-                  Notification.requestPermission(function (permission) {
-                    // If the user accepts, let's create a notification
-                    if (permission === "granted") {
-                      resolve();
-                    }
-                  });
-                }
-          }).then(function () {
+          _this._askForPermision().then(function () {
             navigator.serviceWorker.ready.then(function (swRegistration) {
               return swRegistration.sync.register('SyncLogo');
             });
@@ -229,6 +342,10 @@ function (_React$Component) {
       enumerable: true,
       writable: true,
       value: function value() {
+        _this.setState({
+          networkStatus: false
+        });
+
         console.log('ServiceWorker::: Status::: offline');
         setTimeout(function () {
           _this._syncInBackground();
@@ -240,6 +357,10 @@ function (_React$Component) {
       enumerable: true,
       writable: true,
       value: function value() {
+        _this.setState({
+          networkStatus: true
+        });
+
         console.log('ServiceWorker::: Status::: online');
       }
     });
@@ -253,49 +374,149 @@ function (_React$Component) {
         window.addEventListener('offline', _this._offlineHandler);
       }
     });
+    Object.defineProperty(_assertThisInitialized(_this), "_pushNotification", {
+      configurable: true,
+      enumerable: true,
+      writable: true,
+      value: function value() {
+        var applicationServerPublicKey = 'BMyZn-clZfJNpZw8ouT7oJlWRxcn6aibmW1nQweRb6B5c--omBHvkzdgVkrNmyt7Fhhdb-NztypEAfvb35TnLGM';
+
+        var applicationServerKey = _this._urlBase64ToUint8Array(applicationServerPublicKey);
+
+        console.log('ServiceWorker::: Push Notification for the event');
+
+        if ("serviceWorker" in navigator) {
+          _this._askForPermision().then(function () {
+            navigator.serviceWorker.ready.then(function (swRegistration) {
+              swRegistration.pushManager.getSubscription().then(function (subscription) {
+                var isSubscribed = !(subscription === null);
+
+                if (isSubscribed) {
+                  console.log('User IS subscribed.', subscription);
+                } else {
+                  swRegistration.pushManager.subscribe({
+                    userVisibleOnly: true,
+                    applicationServerKey: applicationServerKey
+                  });
+                }
+              });
+            });
+          });
+        }
+      }
+    });
+    Object.defineProperty(_assertThisInitialized(_this), "_initialOneSignal", {
+      configurable: true,
+      enumerable: true,
+      writable: true,
+      value: function value() {
+        console.log('OneSignal');
+        var OneSignal = window.OneSignal || [];
+        OneSignal.push(function () {
+          OneSignal.init({
+            appId: "e46748fb-1e5b-4f4f-b4dc-ae05806271ac"
+          });
+        });
+      }
+    });
     _this.state = {
-      offline: true
+      offline: true,
+      networkStatus: true
     };
     return _this;
   }
 
   _createClass(Page, [{
+    key: "componentDidMount",
+    value: function componentDidMount() {}
+  }, {
+    key: "_urlBase64ToUint8Array",
+    value: function _urlBase64ToUint8Array(base64String) {
+      var padding = '='.repeat((4 - base64String.length % 4) % 4);
+      var base64 = (base64String + padding).replace(/\-/g, '+').replace(/_/g, '/');
+      var rawData = window.atob(base64);
+      var outputArray = new Uint8Array(rawData.length);
+
+      for (var i = 0; i < rawData.length; ++i) {
+        outputArray[i] = rawData.charCodeAt(i);
+      }
+
+      return outputArray;
+    }
+  }, {
     key: "render",
     value: function render() {
-      return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
+      return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(PageStyle, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 90
+          lineNumber: 161
         }
-      }, this.state.offline && __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
+      }, this.state.offline && __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2__components__["a" /* Alarm */], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 92
+          lineNumber: 163
         }
-      }, " Service Worker is Active "), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
+      }, " Service Worker is Active "), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2__components__["a" /* Alarm */], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 94
+          lineNumber: 165
         }
-      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("button", {
+      }, " Network Status: ", this.state.networkStatus ? 'Online' : 'Offline', " "), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 166
+        }
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2__components__["b" /* Button */], {
         onClick: this._registerServiceWorkers,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 95
+          lineNumber: 167
         }
-      }, "Registering Service Workers"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("button", {
+      }, "Registering Service Workers"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 171
+        }
+      }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2__components__["b" /* Button */], {
         onClick: this._syncInBackground,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 98
+          lineNumber: 172
         }
-      }, "Background Sync"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("button", {
+      }, "Background Sync"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 176
+        }
+      }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2__components__["b" /* Button */], {
         onClick: this._notifyUser,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 101
+          lineNumber: 177
         }
-      }, "Make Background Sync Automatic")), this.props.children);
+      }, "Make Background Sync Automatic And Notify User for Network"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 181
+        }
+      }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2__components__["b" /* Button */], {
+        onClick: this._pushNotification,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 182
+        }
+      }, "Push Notification Initialization"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 186
+        }
+      }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2__components__["b" /* Button */], {
+        onClick: this._initialOneSignal,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 187
+        }
+      }, "One Signal")), this.props.children);
     }
   }, {
     key: "__reactstandin__regenerateByEval",
@@ -322,6 +543,7 @@ var _default = Page;
     return;
   }
 
+  reactHotLoader.register(PageStyle, "PageStyle", "/Users/cheebg/Projects/mazda-pwa/components/Page/Page.js");
   reactHotLoader.register(Page, "Page", "/Users/cheebg/Projects/mazda-pwa/components/Page/Page.js");
   reactHotLoader.register(_default, "default", "/Users/cheebg/Projects/mazda-pwa/components/Page/Page.js");
   leaveModule(module);
@@ -337,9 +559,12 @@ var _default = Page;
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__Button_Button__ = __webpack_require__("./components/Button/Button.js");
-/* unused harmony reexport Button */
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return __WEBPACK_IMPORTED_MODULE_0__Button_Button__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__Page_Page__ = __webpack_require__("./components/Page/Page.js");
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_1__Page_Page__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return __WEBPACK_IMPORTED_MODULE_1__Page_Page__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__Alarm_Alarm__ = __webpack_require__("./components/Alarm/Alarm.js");
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_2__Alarm_Alarm__["a"]; });
+
 
 
 
@@ -358,7 +583,8 @@ var _default = Page;
 var _default = {
   RED: '#990000',
   GREY: '#888888',
-  GREY_LIGHT: '#333333'
+  GREY_LIGHT: '#333333',
+  WHITE: '#eeeeee'
 };
 /* harmony default export */ __webpack_exports__["a"] = (_default);
 ;
@@ -5520,14 +5746,14 @@ function (_React$Component) {
     key: "render",
     value: function render() {
       var env = this.props.env;
-      return __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2__components__["a" /* Page */], {
+      return __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2__components__["c" /* Page */], {
         env: env,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 15
         }
       }, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3_next_link___default.a, {
-        href: "/mazda2",
+        href: "/",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 16
@@ -5537,10 +5763,26 @@ function (_React$Component) {
           fileName: _jsxFileName,
           lineNumber: 17
         }
-      }, "Mazda2")), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("div", {
+      }, "HomePage")), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("br", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 19
+        }
+      }), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3_next_link___default.a, {
+        href: "/mazda2",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 20
+        }
+      }, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("a", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 21
+        }
+      }, "Mazda2")), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("div", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 23
         }
       }, "HomePage"));
     }
@@ -5624,7 +5866,7 @@ var _default = Index;
 
 /***/ }),
 
-/***/ 5:
+/***/ 4:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__("./pages/index.js");
@@ -5632,7 +5874,7 @@ module.exports = __webpack_require__("./pages/index.js");
 
 /***/ })
 
-},[5])
+},[4])
           return { page: comp.default }
         })
       ;

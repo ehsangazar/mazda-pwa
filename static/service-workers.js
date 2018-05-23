@@ -66,3 +66,25 @@ self.addEventListener('sync', function (event) {
     )
   }
 });
+
+
+self.addEventListener('push', function (event) {
+  console.log('Service Worker::: Push Received.');
+  console.log(`Service Worker::: Push had this data: "${event.data.text()}"`);
+
+  const title = 'Push Notification Add event listener';
+  const options = {
+    body: 'Yay it works.',
+    icon: 'static/logo.png',
+    badge: 'static/logo.png',
+  };
+
+  event.waitUntil(self.registration.showNotification(title, options));
+});
+
+
+self.addEventListener('notificationclick', function (event) {
+  console.log('Service Worker::: Notification click Received.');
+
+  event.notification.close();
+});
